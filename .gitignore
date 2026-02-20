@@ -1,0 +1,55 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore output and cache directories often created by data science tools
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environment directories
+env/
+venv/
+ENV/
+.venv/
+.pip/
+
+# Ignore OS or editor specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Ignore logs and outputs
+*.log
+*.out
+
+# Ignore local configuration files
+*.env
+.env.*
+*.local
+*.config
+
+# Ignore large files and datasets (add extensions as needed)
+*.csv
+*.tsv
+*.dat
+*.h5
+*.db
+*.sqlite
+*.pkl
+*.parquet
+*.feather
+*.joblib
+
+# VSCode/JupyterLab settings
+.vscode/
+.jupyter/
+.ipynb_kernel/
+
+# Ignore temporary or swap files
+*~
+*.swp
+
+# Ignore export files from Jupyter
+*.nbconvert.ipynb
